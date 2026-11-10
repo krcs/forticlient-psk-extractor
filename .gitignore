@@ -1,0 +1,17 @@
+# .NET build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+publish/
+*.user
+
+# Rider / VS
+.idea/
+.vs/
+
+# Recovered FortiClient data — NEVER commit these (they contain secrets)
+*.conf
+vpn_pw.conf
+all_pw.conf
+*.psk

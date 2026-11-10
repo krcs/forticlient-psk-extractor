@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>fcpsk</AssemblyName>
+    <RootNamespace>ForticlientPskExtractor</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <!--
+      This tool runs on Windows x64 only (it loads FortiClient's native DLLs),
+      but uses the plain net8.0 TFM so it also compiles on Linux/CI.
+      For a portable single .exe, publish with an explicit win-x64 RID
+      (self-contained, single-file) as shown in the README.
+    -->
+  </PropertyGroup>
+
+</Project>
