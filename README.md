@@ -47,8 +47,7 @@ derived from *your* password — which you then hand to this tool.
 On the target PC, in an **elevated** Command Prompt:
 
 ```bat
-"C:\Program Files\Fortinet\FortiClient\FCConfig.exe" ^
-    -f "%CD%\vpn_pw.conf" -m vpn -o export -p MyPass12345
+"C:\Program Files\Fortinet\FortiClient\FCConfig.exe" -f vpn_pw.conf -m vpn -o export -p MyPass12345
 ```
 
 ### 2. Decrypt
